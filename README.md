@@ -5,11 +5,11 @@
 
 # Temas
 
-*- Java en general (Estructuras de control, Estructuras de datos, etc).*
-*- Java en POO.*
-*- Maven*
-*- Spring*
-*- Hibernate*
-*- PostgreSQL*
-*- Docker*
-*- Railway*
+ - Java en general (Estructuras de control, Estructuras de datos, etc).
+ - Java en POO.
+ - Maven
+ - Spring
+ - Hibernate
+ - PostgreSQL
+ - Docker
+ - Railway
