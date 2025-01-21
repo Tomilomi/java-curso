@@ -80,4 +80,11 @@ if (archivo.exists()) {
 
 5. **Sobrecarga vs. Adición de Contenido:**
    - Usa el modo de sobrescritura (por defecto) o de adición (modo `true`) al escribir en un archivo según tus necesidades.
+---
+### *Consideraciones para rutas*
+Cuando estamos trabajando con Windows las rutas se escriben de una determinada forma, al igual que Linux usa una forma distanta de escribir las rutas. Para esta problematica encontre algunos tips haciendo uso de `getProperty`.
+
+```java
+var dynamicPath = System.getProperty("user.home") + File.separator + "archivo.txt";
+```
 
