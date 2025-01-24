@@ -37,23 +37,23 @@
 ### 🔗 **JDBC (Java Database Connectivity)**  
 JDBC es una API de Java que permite a las aplicaciones conectarse y ejecutar consultas en bases de datos. Es la base para interactuar con bases de datos desde Java. Sin embargo, su implementación manual puede ser tediosa, por lo que frameworks como Hibernate simplifican este trabajo.
 
-🟢 **Aplicación**:  
-Utilizado para aprender la conexión básica con bases de datos antes de usar frameworks avanzados como Hibernate.
+**Aplicación**:  
+    Utilizado para aprender la conexión básica con bases de datos antes de usar frameworks avanzados como Hibernate.
 
 ---
 
 ### 🗂️ **DAO (Data Access Object)**  
 El patrón DAO abstrae la lógica de acceso a datos, separándola del resto de la aplicación. Cada clase DAO maneja operaciones CRUD específicas para una entidad.
 
-🟢 **Ejemplo**:  
-Una clase `UsuarioDAO` podría manejar métodos como `guardarUsuario()`, `obtenerUsuarioPorId()`, etc.
+**Ejemplo**:  
+    Una clase `UsuarioDAO` podría manejar métodos como `guardarUsuario()`, `obtenerUsuarioPorId()`, etc.
 
 ---
 
 ### 🛠️ **Maven**  
 Maven es una herramienta de gestión de proyectos y dependencias. Permite configurar bibliotecas externas como Spring o Hibernate mediante un archivo `pom.xml`.
 
-🟢 **Uso en el curso**:  
+**Uso en el curso**:  
 - Configurar proyectos con Maven.  
 - Agregar dependencias como Spring y Hibernate para automatizar la gestión de bibliotecas.
 
@@ -64,7 +64,7 @@ Spring es un framework para el desarrollo de aplicaciones empresariales. Sus car
 - **Inyección de dependencias (DI)**: Facilita la creación de componentes modulares.  
 - **Spring Boot**: Simplifica la configuración de aplicaciones Spring.  
 
-🟢 **Uso en el curso**:  
+**Uso en el curso**:  
 - Configurar un proyecto básico con Spring Boot.  
 - Crear una aplicación que siga el patrón **MVC (Modelo-Vista-Controlador)**.
 
@@ -73,12 +73,12 @@ Spring es un framework para el desarrollo de aplicaciones empresariales. Sus car
 ### 🗃️ **Hibernate**  
 Hibernate es una herramienta de mapeo objeto-relacional (ORM) que permite trabajar con bases de datos utilizando objetos Java en lugar de escribir consultas SQL manuales.
 
-🟢 **Ventajas**:  
+**Ventajas**:  
 - Reducción de código SQL repetitivo.  
 - Simplificación de operaciones CRUD.  
 - Mapeo de clases a tablas con anotaciones como `@Entity`, `@Table`, etc.
 
-🟢 **Uso en el curso**:  
+**Uso en el curso**:  
 - Configurar Hibernate para manejar entidades.  
 - Implementar un DAO con Hibernate.
 
@@ -92,8 +92,8 @@ Este concepto implica almacenar y recuperar datos de una base de datos. En Java,
 - **Servicios**: Contienen la lógica de negocio y utilizan repositorios para acceder a los datos.  
 - **Controladores**: Manejan las solicitudes del usuario y coordinan las respuestas usando los servicios.
 
-🟢 **Relación con Spring**:  
-Spring facilita la implementación de esta estructura a través de su módulo **Spring Data JPA**.
+**Relación con Spring**:  
+    Spring facilita la implementación de esta estructura a través de su módulo **Spring Data JPA**.
 
 ---
 
@@ -103,7 +103,6 @@ MVC es un patrón de diseño que separa la lógica de negocio, la presentación 
 - **Vista**: Presenta los datos al usuario (Ej: HTML, Thymeleaf).  
 - **Controlador**: Maneja las solicitudes y coordina entre el modelo y la vista.
 
-🟢 **Uso en el curso**:  
+**Uso en el curso**:  
 - Crear una aplicación web simple con Spring Boot siguiendo el patrón MVC.
 
----
