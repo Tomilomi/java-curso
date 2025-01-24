@@ -50,7 +50,7 @@ El patrón DAO se utiliza para abstraer la lógica de acceso a datos, separándo
 Maven es una herramienta de gestión de proyectos y dependencias. Permite configurar bibliotecas externas como Spring o Hibernate mediante un archivo `pom.xml`.
 
 **Uso en el curso**:  
-- Aprenderás cómo configurar proyectos con Maven.
+- Configurar proyectos con Maven.
 - Agregar dependencias como Spring y Hibernate para automatizar la gestión de bibliotecas.
 
 ---
